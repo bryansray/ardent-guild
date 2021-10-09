@@ -1,0 +1,21 @@
+<article class="featured h-80 flex flex-col article rounded-lg bg-contain bg-no-repeat bg-center {{ if not .killedAt }}opacity-20{{ end }}" style="background-color: #161616; background-image: url({{ .image }});">
+  {{ if .killedAt }}
+    <section class="py-3 px-2 self-end flex-none">
+      <img alt="Mythic" src="/images/miscellaneous/mythic-icon.png" class="w-20">
+    </section>
+  {{ end }}
+
+  <div class="flex-auto"></div>
+
+  <section class="bg-black bg-opacity-60 rounded-b-lg">
+    <h3 class="title text-blue-400 mb-0 p-3 tracking-tight text-xl block font-bold truncate" title="{{ .name }}">
+      {{ .name }}
+    </h3>
+
+    {{ if .killedAt }}
+    <div class="metadata italic tracking-wider font-light text-right p-2">
+        Downed on <span class="timestamp font-semibold">{{ dateFormat "January 2, 2006" .killedAt }}</span>
+      </div>
+      {{ end }}
+  </section>
+</article>

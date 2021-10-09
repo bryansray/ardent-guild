@@ -1,0 +1,134 @@
+- name: Rhulian
+  role: "tank"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Rhulian
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rhulian
+  warcraftlogs:
+    url: https://www.warcraftlogs.com/character/us/sargeras/Digitalize
+- name: Aiio
+  role: "tank"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Specialize
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Specialize
+  warcraftlogs:
+    url: https://www.warcraftlogs.com/character/us/sargeras/Specialize
+- name: Coorsliteguy
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Lethalize
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Lethalize
+  warcraftlogs:
+    url: https://www.warcraftlogs.com/character/us/sargeras/Lethalize
+- name: Beanbooloo
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Blitzsurge
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Daisytree
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Digitalize
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Jaydemonhntr
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Mem
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Maxwell
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Pigcow
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Rainybe
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Vespp
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Azazel
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Yargy
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Choppy
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Crounos
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Doesitmatter
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Doogi
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Echoriath
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Xenmas
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Nannerseer
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Rickrollins
+  role: "healer"
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+- name: Syth
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/
+  armory: 
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/

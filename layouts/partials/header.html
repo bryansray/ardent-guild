@@ -1,0 +1,21 @@
+<header class="header border-b sticky top-0 z-10 border-gray-900 " style="background-color: #2c2c2c; box-shadow: 0px 2px 6px 0px #516c89;">
+  <!-- <img src="/images/miscellaneous/shadowlands-background.jpeg" width="3839 " height="1598" style="display: block; max-height: 450px; object-fit: fill;" /> -->
+
+  <nav class="navigation flex items-center">
+    <section class="navigation-list flex">
+      <a class="navigation-link block" href="/">
+        <img alt="Ardent" src="/images/ardent-logo-first-draft.png" />
+      </a>
+    </section>
+    <section class="flex-auto"></section>
+    <section class="navigation-list flex justify-end">
+      {{ with .Site.Menus.main }}
+        {{ range sort . }}
+          <div class="navigation-item">
+            <a class="navigation-link p-5 inline-block" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </section>
+  </nav>
+</header>

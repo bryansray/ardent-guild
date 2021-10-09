@@ -1,0 +1,12 @@
+<section class="h-40 mb-5 rounded-lg shadow-lg bg-cover bg-no-repeat bg-center" style="background-image: url('/images/miscellaneous/shadowlands-background.jpeg')">
+  <h3 class="bg-black tracking-wide font-thin text-2xl top-1/2 relative bg-opacity-40 p-3">Sanctum of Domination</h3>
+</section>
+<!-- <img class="my-5 rounded-2xl shadow-lg" src="/images/miscellaneous/shadowlands-background.jpeg" width="3839 " height="1598" style="display: block; max-height: 450px; object-fit: fill;" /> -->
+
+<section class="recent-posts featured grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+  {{ range first 1 .Site.Data.progression }}
+    {{ range sort .bosses "killedAt" "desc" }}
+      {{ partial "featured" . }}
+    {{ end }}
+  {{ end }}
+</section>

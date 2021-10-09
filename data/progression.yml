@@ -1,0 +1,66 @@
+- name: Sanctum of Domination
+  visible: true
+  bosses: 
+    - name: Tarragrue
+      killed: true
+      killedAt: 2021-07-16
+      image: "https://assets.mythictrap.com/sanctumOfDomination/tarragrueBig.png"
+    - name: Eye of the Jailer
+      killed: true
+      killedAt: 2021-07-30
+      image: "https://assets.mythictrap.com/sanctumOfDomination/eyeOfTheJailer/deathseekerEye.png"
+    - name: The Nine
+      killed: true
+      killedAt: 2021-08-04
+      image: "https://assets.mythictrap.com/sanctumOfDomination/theNine.png"
+    - name: Remnant of Ner'zhul
+      killed: true
+      killedAt: 2021-08-13
+      image: "https://assets.mythictrap.com/sanctumOfDomination/nerzhul.png"
+    - name: Soulrender Dormazain
+      killed: true
+      killedAt: 2021-08-25
+      image: "https://assets.mythictrap.com/sanctumOfDomination/dormazainBig.png"
+    - name: Painsmith Raznal
+      killed: true
+      killedAt: 2021-09-24
+      image: "https://assets.mythictrap.com/sanctumOfDomination/raznal.png"
+    - name: Guardian of the First Ones
+      killed: true
+      killedAt: 2021-09-24
+      image: "https://assets.mythictrap.com/sanctumOfDomination/guardianBig.png"
+    - name: Fatescribe Roh-Kalo
+      killed: true
+      killedAt: 2021-10-01
+      image: "https://assets.mythictrap.com/sanctumOfDomination/rohKalo.png"
+    - name: Kel'Thuzad
+      killed: false
+      killedAt:
+      image: "https://assets.mythictrap.com/sanctumOfDomination/kelThuzad.png"
+    - name: Sylvanas Windrunner
+      killed: false
+      killedAt:
+      image: "https://assets.mythictrap.com/sanctumOfDomination/sylvanasBig.png"
+
+- name: Castle Nathria
+  bosses:
+    - name: Shriekwing
+      killed: true
+    - name: Huntsman
+      killed: true
+    - name: Hungering
+      killed: true
+    - name: Sun King
+      killed: true
+    - name: Xy'mox
+      killed: true
+    - name: Lady Inerva
+      killed: true
+    - name: Council of Blood
+      killed: true
+    - name: Sludgefist
+      killed: true
+    - name: Stone Legion
+      killed: true
+    - name: Denathrius
+      killed: false

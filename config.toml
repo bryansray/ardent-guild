@@ -1,0 +1,53 @@
+baseURL = "https://www.ardent-guild.com/"
+languageCode = "en-us"
+title = "Ardent .:. An Alliance Mythic Raiding Guild on Sargeras"
+
+paginate = 20
+canonifyurls = true
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe=true
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug"
+
+[params]
+  author = "Ardent Gaming"
+  title = "Ardent Guild"
+  info = "Gaming, World of Warcraft, Programming, WeakAuras, Mythic, Raiding, Progression"
+  description = "An alliance mythic raiding guild on Sargeras. Focused on pushing Cutting Edge."
+  keywords = "gaming,alliance,sargeras,warcraft,wow,world-of-warcraft"
+  images = ['/images/ardent-logo-first-draft.png']
+
+  footercontent = "Built with ♥️ using Hugo, Tailwind, Alpine.JS & Linode."
+
+  hidecredits = false
+  hidecopyright = false
+
+# Menu links
+# [[menu.main]]
+#     name = "Progression"
+#     weight = 1
+#     url  = "/tags/progression"
+[[menu.main]]
+    name = "Roster"
+    weight = 2
+    url = "/roster"
+[[menu.main]]
+    name = "About"
+    weight = 3
+    url = "/about"
