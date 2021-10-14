@@ -34,8 +34,8 @@
       killedAt: 2021-10-01
       image: "https://assets.mythictrap.com/sanctumOfDomination/rohKalo.png"
     - name: Kel'Thuzad
-      killed: false
-      killedAt:
+      killed: true
+      killedAt: 2021-10-12
       image: "https://assets.mythictrap.com/sanctumOfDomination/kelThuzad.png"
     - name: Sylvanas Windrunner
       killed: false
