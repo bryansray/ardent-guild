@@ -2,7 +2,7 @@
   <section class="roster hidden md:block mx-6 my-6">
     <section class="flex flex-col space-y-8 text-sm">
       <section>
-        <h6 class="mb-0 text-sm border-b border-gray-600 rounded py-1">Tanks</h6>
+        <h6 class="mb-0 text-center text-sm border-b border-gray-600">Tanks</h6>
         
         <section class="characters">
           {{ range where .Site.Data.roster "role" "==" "tank" }}
@@ -19,7 +19,7 @@
       </section>
 
       <section>
-        <h3 class="mb-0 text-sm border-b border-gray-600 rounded py-1">Healers</h3>
+        <h3 class="mb-0 text-center text-sm border-b border-gray-600">Healers</h3>
         
         <section class="characters">
           {{ range where .Site.Data.roster "role" "==" "healer" }}
@@ -36,7 +36,7 @@
       </section>
 
       <section>
-        <h3 class="mb-0 text-sm border-b border-gray-600 rounded py-1">Damage</h3>
+        <h3 class="mb-0 text-center text-sm border-b border-gray-600">Damage</h3>
         
         <section class="characters">
           {{ range where (where .Site.Data.roster "role" "!=" "healer") "role" "!=" "tank"  }}
