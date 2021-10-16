@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="flex space-x-7">
+    <section class="flex-auto">
+      {{ .Content }}
+    </section>
+
+    <section class="w-72">
+      <div class="flex flex-col">
+        <h6 class="flex mb-0 text-sm border-b border-black py-1">Weak Auras</h6>
+
+        {{ $auras := getJSON path.Join "content" .RelPermalink "/weakauras.json" }}
+
+        {{ range $index, $aura := $auras }}
+          <section class="flex rounded-md even:bg-black px-3 py-1">
+            <h4 class="m-0 text-sm font-semibold flex">
+              <span class="flex-none w-5">{{ add $index 1 }}</span>
+              <span class="flex-auto">{{ $aura.name }}</span>
+            </h4>
+            <div class="flex-auto"></div>
+            <div class="flex space-x-1">
+              <img alt="World of Warcraft" src="/images/external/world-of-warcraft.svg" class="w-5" />
+            </div>
+          </section>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+{{ end }}
