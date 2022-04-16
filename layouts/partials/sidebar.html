@@ -3,85 +3,124 @@
     <section class="flex flex-col space-y-8 text-sm">
       <section>
         <h6 class="mb-0 text-center text-sm border-b border-gray-600">Tanks</h6>
-        
-        <section class="characters">
+
+        <section class="characters text-neutral-400">
           {{ range where .Site.Data.roster "role" "==" "tank" }}
-            <section class="flex p-1.5 rounded-md">
-              <div>{{ .name }}</div>
-              <div class="flex-auto"></div>
-              <div class="flex space-x-1">
-                <img alt="Raider.IO" src="/images/external/raider-io-logo.webp" class="w-5" />
-                <img alt="World of Warcraft" src="/images/external/world-of-warcraft.svg" class="w-5" />
-              </div>
-            </section>
+          <section class="flex p-1.5 rounded-md">
+            <div>{{ .name }}</div>
+            <div class="flex-auto"></div>
+            <div class="flex space-x-1">
+              <a href="{{ .raiderio.url }}" target="_blank">
+                <img
+                  alt="Raider.IO"
+                  src="/images/external/raider-io-logo.webp"
+                  class="w-5"
+                />
+              </a>
+
+              <a href="{{ .armory.url }}" target="_blank">
+                <img
+                  alt="World of Warcraft"
+                  src="/images/external/world-of-warcraft.svg"
+                  class="w-5"
+                />
+              </a>
+            </div>
+          </section>
           {{ end }}
         </section>
       </section>
 
       <section>
-        <h3 class="mb-0 text-center text-sm border-b border-gray-600">Healers</h3>
-        
-        <section class="characters">
+        <h3 class="mb-0 text-center text-sm border-b border-gray-600">
+          Healers
+        </h3>
+
+        <section class="characters text-neutral-400">
           {{ range where .Site.Data.roster "role" "==" "healer" }}
-            <section class="flex p-1.5 rounded-md">
-              <div>{{ .name }}</div>
-              <div class="flex-auto"></div>
-              <div class="flex space-x-1">
-                <img alt="Raider.IO" src="/images/external/raider-io-logo.webp" class="w-5" />
-                <img alt="World of Warcraft" src="/images/external/world-of-warcraft.svg" class="w-5" />
-              </div>
-            </section>
+          <section class="flex p-1.5 rounded-md">
+            <div>{{ .name }}</div>
+            <div class="flex-auto"></div>
+            <div class="flex space-x-1">
+              <img
+                alt="Raider.IO"
+                src="/images/external/raider-io-logo.webp"
+                class="w-5"
+              />
+              <img
+                alt="World of Warcraft"
+                src="/images/external/world-of-warcraft.svg"
+                class="w-5"
+              />
+            </div>
+          </section>
           {{ end }}
         </section>
       </section>
 
       <section>
-        <h3 class="mb-0 text-center text-sm border-b border-gray-600">Damage</h3>
-        
-        <section class="characters">
-          {{ range where (where .Site.Data.roster "role" "!=" "healer") "role" "!=" "tank"  }}
-            <section class="flex p-1.5 rounded-md">
-              <div class="">{{ .name }}</div>
-              <div class="flex-auto"></div>
-              <div class="flex space-x-1">
-                <img alt="Raider.IO" src="/images/external/raider-io-logo.webp" class="w-5" />
-                <img alt="World of Warcraft" src="/images/external/world-of-warcraft.svg" class="w-5" />
-              </div>
-            </section>
+        <h3 class="mb-0 text-center text-sm border-b border-gray-600">
+          Damage
+        </h3>
+
+        <section class="characters text-neutral-400">
+          {{ range where (where .Site.Data.roster "role" "!=" "healer") "role"
+          "!=" "tank" }}
+          <section class="flex p-1.5 rounded-md">
+            <div class="">{{ .name }}</div>
+            <div class="flex-auto"></div>
+            <div class="flex space-x-1">
+              <img
+                alt="Raider.IO"
+                src="/images/external/raider-io-logo.webp"
+                class="w-5"
+              />
+              <img
+                alt="World of Warcraft"
+                src="/images/external/world-of-warcraft.svg"
+                class="w-5"
+              />
+            </div>
+          </section>
           {{ end }}
         </section>
       </section>
-
     </section>
-
-
   </section>
-  
+
   <section class="progression hidden md:block mx-6 my-6">
-    <h5 class="text-lg font-bold border-b border-gray-600">Progression (Mythic)</h5>
+    <h5 class="text-lg font-bold border-b border-gray-600">
+      Progression (Mythic)
+    </h5>
 
     {{ range .Site.Data.progression }}
-      <section class="mb-6">
-        {{ $kills := (where .bosses "killed" "==" true) }}
-        
-        <h6 class="flex mb-0 text-sm border-b border-gray-600 rounded py-1">
-          {{ .name }}
-          <span class="flex-auto"></span>
-          <span class="font-light italic">{{len $kills }}/{{ len .bosses }}</span>
-        </h6>
+    <section class="mb-6">
+      {{ $kills := (where .bosses "killed" "==" true) }}
 
-        <section class="{{ if not .visible }}hidden{{ end }}">
-          {{ range .bosses }}
-            <section class="mb-1 flex even:bg-black p-1.5 rounded-md text-gray-{{ if .killed }}500{{else}}300{{end}}">
-              {{ .name }}
-              {{ if .killed }}
-                <div class="flex-auto"></div>
-                <img alt="Mythic"  src="/images/miscellaneous/mythic-skull.png" title="Mythic" class="w-5 h-5" />
-              {{ end }}
-            </section>
+      <h6 class="flex mb-0 text-sm border-b border-gray-600 rounded py-1">
+        {{ .name }}
+        <span class="flex-auto"></span>
+        <span class="font-light italic">{{len $kills }}/{{ len .bosses }}</span>
+      </h6>
+
+      <section class="{{ if not .visible }}hidden{{ end }}">
+        {{ range .bosses }}
+        <section
+          class="mb-1 flex even:bg-black p-1.5 rounded-md text-gray-{{ if .killed }}500{{else}}300{{end}}"
+        >
+          {{ .name }} {{ if .killed }}
+          <div class="flex-auto"></div>
+          <img
+            alt="Mythic"
+            src="/images/miscellaneous/mythic-skull.png"
+            title="Mythic"
+            class="w-5 h-5"
+          />
           {{ end }}
         </section>
+        {{ end }}
       </section>
+    </section>
     {{ end }}
   </section>
 </section>
