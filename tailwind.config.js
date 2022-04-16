@@ -1,13 +1,8 @@
 module.exports = {
-  purge: ['layouts/**/*.html'],
-  darkMode: 'media', // or 'media' or 'class'
+  mode: "jit",
+  content: ["./layouts/**/*.html", "./content/**/*.md"],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {
-      backgroundColor: ['even']
-    },
-  },
   plugins: [],
-}
+};
