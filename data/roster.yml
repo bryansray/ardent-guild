@@ -2,133 +2,125 @@
   role: "tank"
   raiderio:
     url: https://raider.io/characters/us/sargeras/Rhulian
-  armory: 
+  armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rhulian
-  warcraftlogs:
-    url: https://www.warcraftlogs.com/character/us/sargeras/Digitalize
-- name: Aiio
+- name: Aiø
   role: "tank"
   raiderio:
-    url: https://raider.io/characters/us/sargeras/Specialize
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Specialize
-  warcraftlogs:
-    url: https://www.warcraftlogs.com/character/us/sargeras/Specialize
-- name: Coorsliteguy
-  raiderio:
-    url: https://raider.io/characters/us/sargeras/Lethalize
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Lethalize
-  warcraftlogs:
-    url: https://www.warcraftlogs.com/character/us/sargeras/Lethalize
+    url: "https://raider.io/characters/us/sargeras/Aiø"
+  armory:
+    url: "https://worldofwarcraft.com/en-us/character/us/sargeras/Aiø"
 - name: Beanbooloo
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Beanbooloo
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Beanbooloo
 - name: Blitzsurge
   role: "healer"
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Blitzsurge
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Blitzsurge
 - name: Daisytree
   role: "healer"
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Daisytree
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Daisytree
 - name: Digitalize
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Jaydemonhntr
+    url: https://raider.io/characters/us/sargeras/Digitalize
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Digitalize
+- name: Jaywindfury
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Mem
-  raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Jaywindfury
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Jaywindfury
 - name: Maxwell
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Máxwell
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Máxwell
 - name: Pigcow
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Pigcow
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Pigcow
 - name: Rainybe
   role: "healer"
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Vespp
+    url: https://raider.io/characters/us/sargeras/Rainybe
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rainybe
+- name: Vespillo
   role: "healer"
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Azazel
-  raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Vespillo
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Vespillo
 - name: Yargy
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Yargy
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Yargy
 - name: Choppy
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Crounos
+    url: https://raider.io/characters/us/sargeras/Choppÿ
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Choppÿ
+- name: Cronuos
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Cronuos
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Cronuos
 - name: Doesitmatter
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Doesitmatter
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Doesitmatter
 - name: Doogi
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Echoriath
-  role: "healer"
-  raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Doogi
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Doogi
 - name: Xenmas
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Nannerseer
+    url: https://raider.io/characters/us/sargeras/Xenmas
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Xenmas
+- name: Sýth
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Rickrollins
-  role: "healer"
+    url: https://raider.io/characters/us/sargeras/Sýth
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Sýth
+- name: Bluemooner
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
-- name: Syth
+    url: https://raider.io/characters/us/sargeras/Bluemooner
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Bluemooner
+- name: Crittys
   raiderio:
-    url: https://raider.io/characters/us/sargeras/
-  armory: 
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/
+    url: https://raider.io/characters/us/sargeras/Crittys
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Crittys
+- name: Xhendor
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Xhendor
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Xhendor
+- name: Grennik
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Grennik
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Grennik
+- name: Rakaniishu
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Rakaniishu
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rakaniishu
+- name: Jaece
+  raiderio:
+    url: https://raider.io/characters/us/sargeras/Jaece
+  armory:
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Jaece
