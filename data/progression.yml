@@ -1,6 +1,36 @@
-- name: Sanctum of Domination
+- name: Sepulcher of the First Ones
   visible: true
-  bosses: 
+  bosses:
+    - name: Vigilant Guardian
+      killed: true
+      killedAt: 2022-03-31
+      image: "/images/raids/sepulcher-of-the-first-ones/vigilant-guardian.png"
+    - name: Skolex
+      killed: true
+      killedAt: 2022-04-05
+      image: "/images/raids/sepulcher-of-the-first-ones/skolex.png"
+    - name: Artificer Xy'mox
+      killed: true
+      killedAt: 2022-04-12
+      image: "/images/raids/sepulcher-of-the-first-ones/artificer-xymox.png"
+    - name: Dausegne
+      image: "/images/raids/sepulcher-of-the-first-ones/dausegne.png"
+    - name: Prototype Pantheon
+      image: "/images/raids/sepulcher-of-the-first-ones/prototype-pantheon.png"
+    - name: Lihuvim
+      image: "/images/raids/sepulcher-of-the-first-ones/lihuvim.png"
+    - name: Halondrus
+      image: "/images/raids/sepulcher-of-the-first-ones/halondrus.png"
+    - name: Anduin Wrynn
+      image: "/images/raids/sepulcher-of-the-first-ones/anduin.png"
+    - name: Rygelon
+      image: "/images/raids/sepulcher-of-the-first-ones/rygelon.png"
+    - name: Lords of Dread
+      image: "/images/raids/sepulcher-of-the-first-ones/lords-of-dread.png"
+    - name: The Jailer
+      image: "/images/raids/sepulcher-of-the-first-ones/the-jailer.png"
+- name: Sanctum of Domination
+  bosses:
     - name: Tarragrue
       killed: true
       killedAt: 2021-07-16
@@ -38,8 +68,8 @@
       killedAt: 2021-10-12
       image: "https://assets.mythictrap.com/sanctumOfDomination/kelThuzad.png"
     - name: Sylvanas Windrunner
-      killed: false
-      killedAt:
+      killed: true
+      killedAt: 2021-12-04
       image: "https://assets.mythictrap.com/sanctumOfDomination/sylvanasBig.png"
 
 - name: Castle Nathria
