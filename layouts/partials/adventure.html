@@ -1,0 +1,15 @@
+<section>
+  <a class="block cursor-pointer" x-data="{}" x-on:click.prevent="$dispatch('img-modal', { src: '{{ .image }}', title: '{{ .title }}' });">
+    <img class="w-full rounded" src="{{ .image }}" title="{{ .title }}"></img>
+  </a>
+  
+  {{ if .title }}
+    <h5 class="mb-1 text-sm">{{ .title }}</h5>
+  {{ end }}
+
+  {{ if .description }}
+    <p class="mx-2 font-thin">{{ .description }}</p>
+  {{ end }}
+
+  <div class="text-right font-thin italic">{{ .date }}</div>
+</section>

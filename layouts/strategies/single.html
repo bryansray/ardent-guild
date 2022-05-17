@@ -1,28 +1,55 @@
 {{ define "main" }}
-  <div class="flex space-x-7">
-    <section class="flex-auto">
-      {{ .Content }}
-    </section>
+<div class="flex space-x-7">
+  <section class="flex-auto">{{ .Content }}</section>
 
-    <section class="w-72">
-      <div class="flex flex-col">
-        <h6 class="flex mb-0 text-sm border-b border-black py-1">Weak Auras</h6>
+  <section class="w-72 flex flex-col space-y-6">
+    <div>
+      <h6 class="mb-2 text-sm">Resources</h6>
 
-        {{ $auras := getJSON path.Join "content" .RelPermalink "/weakauras.json" }}
-
-        {{ range $index, $aura := $auras }}
-          <section class="flex rounded-md even:bg-black px-3 py-1">
-            <h4 class="m-0 text-sm font-semibold flex">
-              <span class="flex-none w-5">{{ add $index 1 }}</span>
-              <span class="flex-auto">{{ $aura.name }}</span>
-            </h4>
-            <div class="flex-auto"></div>
-            <div class="flex space-x-1">
-              <img alt="World of Warcraft" src="/images/external/world-of-warcraft.svg" class="w-5" />
-            </div>
-          </section>
+      <div class="flex flex-col space-y-2">
+        {{ range .Params.resources }}
+        <section class="flex rounded-md bg-neutral-800 px-3 py-1.5">
+          <div class="flex-auto">{{ .name }}</div>
+          <div class="flex-auto"></div>
+          <div class="flex-none">
+            <a href="{{ .link }}" target="{{ .link }}">
+              <img
+                alt="WeakAura"
+                src="/images/icons/external-link.png"
+                class="w-5 h-5"
+              />
+            </a>
+          </div>
+        </section>
         {{ end }}
       </div>
-    </section>
-  </div>
+    </div>
+
+    <div>
+      <h6 class="mb-2 text-sm">Weak Auras</h6>
+
+      <section class="flex flex-col space-y-1">
+        {{ $auras := getJSON path.Join "content" .RelPermalink "/weakauras.json"
+        }} {{ range $index, $aura := $auras }}
+        <section class="flex bg-neutral-800 px-3 py-1.5">
+          <div class="m-0 text-sm flex">
+            <span class="flex-none w-5">{{ add $index 1 }}</span>
+            <span class="flex-auto">{{ $aura.name }}</span>
+          </div>
+          <div class="flex-auto"></div>
+          <div class="flex space-x-1">
+            <a href="{{ $aura.link }}" target="{{ $aura.link }}">
+              <img
+                alt="WeakAura"
+                src="/images/icons/external-link.png"
+                class="w-5 h-5"
+              />
+            </a>
+          </div>
+        </section>
+        {{ end }}
+      </section>
+    </div>
+  </section>
+</div>
 {{ end }}

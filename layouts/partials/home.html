@@ -1,37 +1,66 @@
-<section
-  class="h-40 mb-5 rounded-lg shadow-lg bg-cover bg-no-repeat bg-center"
-  style="
-    background-image: url('/images/raids/sepulcher-of-the-first-ones.jpeg');
-  "
->
-  <h3
-    class="
-      bg-neutral-800
+<section class="flex flex-col gap-10">
+  <section>
+    <section class="h-24 mb-5 rounded-lg shadow-lg bg-neutral-800 bg-cover bg-no-repeat bg-center">
+      <h3 class="bg-neutral-700
       opacity-75
       tracking-wide
       font-semibold
-      text-2xl
-      top-1/2
+      text-xl
+      text-amber-700
+      top-1/3
       relative
-      p-3
-    "
-  >
-    Sepulcher of the First Ones (Mythic)
-  </h3>
-</section>
+      p-3">Adventures in Raid Chat</h3>
+    </section>
 
-<section
-  class="
-    recent-posts
-    featured
-    grid
-    sm:grid-cols-1
-    md:grid-cols-1
-    lg:grid-cols-2
-    xl:grid-cols-3
-    gap-4
-  "
->
-  {{ range first 1 .Site.Data.progression }} {{ range sort .bosses "killedAt"
-  "desc" }} {{ partial "featured" . }} {{ end }} {{ end }}
+    <section class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+      {{ range first 4 (sort .Site.Data.adventures "date" "desc") }} 
+        {{ partial "adventure" . }}
+      {{ end }}
+
+    </section>
+  </section>
+
+  <section>
+    <section
+      class="h-40 mb-5 rounded-lg shadow-lg bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: url('/images/raids/sepulcher-of-the-first-ones.jpeg');
+      "
+    >
+      <h3
+        class="
+          bg-neutral-800
+          opacity-75
+          tracking-wide
+          font-semibold
+          text-xl
+          text-amber-700
+          top-1/2
+          relative
+          p-3
+        "
+      >
+        Sepulcher of the First Ones (Mythic)
+      </h3>
+    </section>
+
+    <section
+      class="
+        recent-posts
+        featured
+        grid
+        sm:grid-cols-1
+        md:grid-cols-1
+        lg:grid-cols-2
+        xl:grid-cols-3
+        gap-4
+      "
+    >
+      {{ range first 1 .Site.Data.progression }} 
+        {{ range sort .bosses "killedAt" "desc" }} 
+          {{ partial "featured" . }} 
+        {{ end }} 
+      {{ end }}
+    </section>
+  </section>
 </section>

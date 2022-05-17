@@ -2,25 +2,29 @@
   visible: true
   bosses:
     - name: Vigilant Guardian
-      killed: true
       killedAt: 2022-03-31
       image: "/images/raids/sepulcher-of-the-first-ones/vigilant-guardian.png"
+      logs: https://www.warcraftlogs.com/reports/hfwjz39WvnxKrbJY#fight=21
     - name: Skolex
-      killed: true
       killedAt: 2022-04-05
       image: "/images/raids/sepulcher-of-the-first-ones/skolex.png"
+      logs: https://www.warcraftlogs.com/reports/YpZyLbnRCmKHjFQr#fight=33
     - name: Artificer Xy'mox
-      killed: true
       killedAt: 2022-04-12
       image: "/images/raids/sepulcher-of-the-first-ones/artificer-xymox.png"
+      logs: https://www.warcraftlogs.com/reports/tD1FxcPZQ9AGn7Mz#fight=last
     - name: Dausegne
       image: "/images/raids/sepulcher-of-the-first-ones/dausegne.png"
+      killedAt: 2022-04-19
+      logs: https://www.warcraftlogs.com/reports/fRmCw6LvBpbzxWVy#fight=last
     - name: Prototype Pantheon
       image: "/images/raids/sepulcher-of-the-first-ones/prototype-pantheon.png"
-    - name: Lihuvim
-      image: "/images/raids/sepulcher-of-the-first-ones/lihuvim.png"
+      killedAt: 2022-04-28
+      logs: https://www.warcraftlogs.com/reports/YRHZdr1B7pK984qV#fight=12
     - name: Halondrus
       image: "/images/raids/sepulcher-of-the-first-ones/halondrus.png"
+    - name: Lihuvim
+      image: "/images/raids/sepulcher-of-the-first-ones/lihuvim.png"
     - name: Anduin Wrynn
       image: "/images/raids/sepulcher-of-the-first-ones/anduin.png"
     - name: Rygelon
@@ -29,6 +33,7 @@
       image: "/images/raids/sepulcher-of-the-first-ones/lords-of-dread.png"
     - name: The Jailer
       image: "/images/raids/sepulcher-of-the-first-ones/the-jailer.png"
+
 - name: Sanctum of Domination
   bosses:
     - name: Tarragrue
@@ -75,22 +80,21 @@
 - name: Castle Nathria
   bosses:
     - name: Shriekwing
-      killed: true
+      killedAt: true
     - name: Huntsman
-      killed: true
+      killedAt: true
     - name: Hungering
-      killed: true
+      killedAt: true
     - name: Sun King
-      killed: true
+      killedAt: true
     - name: Xy'mox
-      killed: true
+      killedAt: true
     - name: Lady Inerva
-      killed: true
+      killedAt: true
     - name: Council of Blood
-      killed: true
+      killedAt: true
     - name: Sludgefist
-      killed: true
+      killedAt: true
     - name: Stone Legion
-      killed: true
+      killedAt: true
     - name: Denathrius
-      killed: false

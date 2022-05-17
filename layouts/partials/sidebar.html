@@ -42,16 +42,21 @@
             <div>{{ .name }}</div>
             <div class="flex-auto"></div>
             <div class="flex space-x-1">
-              <img
-                alt="Raider.IO"
-                src="/images/external/raider-io-logo.webp"
-                class="w-5"
-              />
-              <img
-                alt="World of Warcraft"
-                src="/images/external/world-of-warcraft.svg"
-                class="w-5"
-              />
+              <a href="{{ .raiderio.url }}" target="_blank">
+                <img
+                  alt="Raider.IO"
+                  src="/images/external/raider-io-logo.webp"
+                  class="w-5"
+                />
+              </a>
+
+              <a href="{{ .armory.url }}" target="_blank">
+                <img
+                  alt="World of Warcraft"
+                  src="/images/external/world-of-warcraft.svg"
+                  class="w-5"
+                />
+              </a>
             </div>
           </section>
           {{ end }}
@@ -60,7 +65,7 @@
 
       <section>
         <h3 class="mb-0 text-center text-sm border-b border-gray-600">
-          Damage
+          DPS
         </h3>
 
         <section class="characters text-neutral-400">
@@ -70,16 +75,21 @@
             <div class="">{{ .name }}</div>
             <div class="flex-auto"></div>
             <div class="flex space-x-1">
-              <img
-                alt="Raider.IO"
-                src="/images/external/raider-io-logo.webp"
-                class="w-5"
-              />
-              <img
-                alt="World of Warcraft"
-                src="/images/external/world-of-warcraft.svg"
-                class="w-5"
-              />
+              <a href="{{ .raiderio.url }}" target="_blank">
+                <img
+                  alt="Raider.IO"
+                  src="/images/external/raider-io-logo.webp"
+                  class="w-5"
+                />
+              </a>
+
+              <a href="{{ .armory.url }}" target="_blank">
+                <img
+                  alt="World of Warcraft"
+                  src="/images/external/world-of-warcraft.svg"
+                  class="w-5"
+                />
+              </a>
             </div>
           </section>
           {{ end }}
@@ -95,7 +105,7 @@
 
     {{ range .Site.Data.progression }}
     <section class="mb-6">
-      {{ $kills := (where .bosses "killed" "==" true) }}
+      {{ $kills := (where .bosses "killedAt" "!=" nil) }}
 
       <h6 class="flex mb-0 text-sm border-b border-gray-600 rounded py-1">
         {{ .name }}
@@ -106,9 +116,9 @@
       <section class="{{ if not .visible }}hidden{{ end }}">
         {{ range .bosses }}
         <section
-          class="mb-1 flex even:bg-black p-1.5 rounded-md text-gray-{{ if .killed }}500{{else}}300{{end}}"
+          class="mb-1 flex even:bg-black p-1.5 rounded-md text-gray-{{ if isset . "killedAt" }}500{{else}}300{{end}}"
         >
-          {{ .name }} {{ if .killed }}
+          {{ .name }} {{ if isset . "killedAt" }}
           <div class="flex-auto"></div>
           <img
             alt="Mythic"
