@@ -1,21 +1,25 @@
 - name: Rhulian
   role: "tank"
+  class: paladin
   raiderio:
     url: https://raider.io/characters/us/sargeras/Rhulian
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rhulian
 - name: Aiø
   role: "tank"
+  class: monk
   raiderio:
     url: "https://raider.io/characters/us/sargeras/Aiø"
   armory:
     url: "https://worldofwarcraft.com/en-us/character/us/sargeras/Aiø"
 - name: Beanbooloo
+  class: warrior
   raiderio:
     url: https://raider.io/characters/us/sargeras/Beanbooloo
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Beanbooloo
 - name: Blitzsurge
+  class: shaman
   role: "healer"
   raiderio:
     url: https://raider.io/characters/us/sargeras/Blitzsurge
@@ -23,103 +27,123 @@
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Blitzsurge
 - name: Daisytree
   role: "healer"
+  class: druid
   raiderio:
     url: https://raider.io/characters/us/sargeras/Daisytree
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Daisytree
 - name: Digitalize
+  class: demon-hunter
   raiderio:
     url: https://raider.io/characters/us/sargeras/Digitalize
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Digitalize
 - name: Jaywindfury
+  class: shaman
   raiderio:
     url: https://raider.io/characters/us/sargeras/Jaywindfury
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Jaywindfury
 - name: Maxwell
+  class: mage
   raiderio:
     url: https://raider.io/characters/us/sargeras/Máxwell
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Máxwell
 - name: Pigcow
+  class: warlock
   raiderio:
     url: https://raider.io/characters/us/sargeras/Pigcow
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Pigcow
 - name: Rainybe
+  class: shaman
   role: "healer"
   raiderio:
     url: https://raider.io/characters/us/sargeras/Rainybe
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rainybe
 - name: Vespillo
+  class: priest
   role: "healer"
   raiderio:
     url: https://raider.io/characters/us/sargeras/Vespillo
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Vespillo
 - name: Yargy
+  class: hunter
   raiderio:
     url: https://raider.io/characters/us/sargeras/Yargy
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Yargy
 - name: Choppy
+  class: druid
   raiderio:
     url: https://raider.io/characters/us/sargeras/Choppÿ
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Choppÿ
 - name: Cronuos
+  class: rogue
   raiderio:
     url: https://raider.io/characters/us/sargeras/Cronuos
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Cronuos
 - name: Doesitmatter
+  class: death-knight
   raiderio:
     url: https://raider.io/characters/us/sargeras/Doesitmatter
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Doesitmatter
 - name: Doogi
+  class: priest
   raiderio:
     url: https://raider.io/characters/us/sargeras/Doogi
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Doogi
 - name: Xenmas
+  class: priest
   raiderio:
     url: https://raider.io/characters/us/sargeras/Xenmas
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Xenmas
 - name: Sýth
+  class: warlock
   raiderio:
     url: https://raider.io/characters/us/sargeras/Sýth
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Sýth
 - name: Bluemooner
+  class: warrior
   raiderio:
     url: https://raider.io/characters/us/sargeras/Bluemooner
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Bluemooner
 - name: Crittys
+  class: hunter
   raiderio:
     url: https://raider.io/characters/us/sargeras/Crittys
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Crittys
 - name: Xhendor
+  class: warlock
   raiderio:
     url: https://raider.io/characters/us/sargeras/Xhendor
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Xhendor
 - name: Grennik
+  class: warlock
   raiderio:
     url: https://raider.io/characters/us/sargeras/Grennik
   armory:
     url: https://worldofwarcraft.com/en-us/character/us/sargeras/Grennik
-- name: Rakaniishu
+- name: Rakanisho
+  class: hunter
   raiderio:
-    url: https://raider.io/characters/us/sargeras/Rakaniishu
+    url: https://raider.io/characters/us/sargeras/Rakanisho
   armory:
-    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rakaniishu
+    url: https://worldofwarcraft.com/en-us/character/us/sargeras/Rakanisho
 - name: Jaece
+  class: warrior
   raiderio:
     url: https://raider.io/characters/us/sargeras/Jaece
   armory:
