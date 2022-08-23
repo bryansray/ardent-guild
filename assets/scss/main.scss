@@ -3,50 +3,143 @@
 @tailwind utilities;
 
 html {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 @layer base {
-    h1 { @apply text-3xl }
-    h2 { @apply text-2xl }
-    h3 { @apply text-xl }
-    h4 { @apply text-lg }
-    h5 { @apply text-lg }
-    h6 { @apply text-lg }
-    h1, h2, h3, h4, h5, h6 { @apply font-bold tracking-tight }
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-lg;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight;
+  }
 
-    h1, h2, h3, h4, h5, h6, pre, ul { @apply mb-3 }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  ul {
+    @apply mb-3;
+  }
 
-    p { @apply mb-6 leading-7 }
-    article img { @apply mb-6 }
+  p {
+    @apply mb-6 leading-7;
+  }
+  article img {
+    @apply mb-6;
+  }
 
-    a { @apply text-blue-300 }
+  a {
+    @apply text-blue-300;
+  }
 
-    ul li { @apply list-disc ml-5 }
-    ol li { @apply list-decimal }
-    li { @apply ml-5 }
-    ul, ol { @apply mb-6 ml-3 }
+  ul li {
+    @apply list-disc ml-5;
+  }
+  ol li {
+    @apply list-decimal;
+  }
+  li {
+    @apply ml-5;
+  }
+  ul,
+  ol {
+    @apply mb-6 ml-3;
+  }
 
-    pre code { @apply block whitespace-pre-wrap max-h-60 overflow-auto break-all }
-    code {
-        @apply bg-gray-600 text-gray-50 px-1.5 py-1 rounded
-    }
+  pre code {
+    @apply block whitespace-pre-wrap max-h-60 overflow-auto break-all;
+  }
+  code {
+    @apply bg-gray-600 text-gray-50 px-1.5 py-1 rounded;
+  }
 
-    blockquote { 
-        @apply mb-6 ml-4 p-3 border-l-2 text-gray-400 border-gray-600 italic;
-        background-color: #1d1d1d;
-    }
-    blockquote p:last-child { @apply mb-0 }
+  blockquote {
+    @apply mb-6 ml-4 p-3 border-l-2 text-gray-400 border-gray-600 italic;
+    background-color: #1d1d1d;
+  }
+  blockquote p:last-child {
+    @apply mb-0;
+  }
 
-    table { @apply w-full mb-6 table-auto }
-    table th { @apply text-left }
+  table {
+    @apply w-full mb-6 table-auto;
+  }
+  table th {
+    @apply text-left;
+  }
 }
 
 .main-content {
-    h1 { @apply border-b border-gray-600 pb-1.5 }
+  h1 {
+    @apply border-b border-gray-600 pb-1.5;
+  }
 }
 
 .roster .characters > section:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.death-knight {
+  color: #c41e3a;
+}
+.demon-hunter {
+  color: #a330c9;
+}
+.druid {
+  color: #ff7c0a;
+}
+.evoker {
+  color: #33937f;
+}
+.hunter {
+  color: #aad372;
+}
+.mage {
+  color: #3fc7eb;
+}
+.monk {
+  color: #00ff98;
+}
+.paladin {
+  color: #f48cba;
+}
+.priest {
+  color: #ffffff;
+}
+.rogue {
+  color: #fff468;
+}
+.shaman {
+  color: #0070dd;
+}
+.warlock {
+  color: #8788ee;
+}
+.warrior {
+  color: #c69b6d;
 }
