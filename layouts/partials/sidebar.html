@@ -5,9 +5,9 @@
         <h6 class="mb-0 text-center text-sm border-b border-gray-600">Tanks</h6>
 
         <section class="characters text-neutral-400">
-          {{ range where .Site.Data.roster "role" "==" "tank" }}
+          {{ range sort (where .Site.Data.roster "role" "==" "tank") "class" }}
           <section class="flex p-1.5 rounded-md">
-            <div>{{ .name }}</div>
+            <div class="{{ .class }}">{{ .name }}</div>
             <div class="flex-auto"></div>
             <div class="flex space-x-1">
               <a href="{{ .raiderio.url }}" target="_blank">
@@ -37,9 +37,9 @@
         </h3>
 
         <section class="characters text-neutral-400">
-          {{ range where .Site.Data.roster "role" "==" "healer" }}
+          {{ range sort (where .Site.Data.roster "role" "==" "healer") "class" }}
           <section class="flex p-1.5 rounded-md">
-            <div>{{ .name }}</div>
+            <div class="{{ .class }}">{{ .name }}</div>
             <div class="flex-auto"></div>
             <div class="flex space-x-1">
               <a href="{{ .raiderio.url }}" target="_blank">
@@ -69,10 +69,9 @@
         </h3>
 
         <section class="characters text-neutral-400">
-          {{ range where (where .Site.Data.roster "role" "!=" "healer") "role"
-          "!=" "tank" }}
+          {{ range sort (where (where .Site.Data.roster "role" "!=" "healer") "role" "!=" "tank") "class" }}
           <section class="flex p-1.5 rounded-md">
-            <div class="">{{ .name }}</div>
+            <div class="{{ .class }}">{{ .name }}</div>
             <div class="flex-auto"></div>
             <div class="flex space-x-1">
               <a href="{{ .raiderio.url }}" target="_blank">
