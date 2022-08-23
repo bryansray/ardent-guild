@@ -23,10 +23,13 @@
       logs: https://www.warcraftlogs.com/reports/YRHZdr1B7pK984qV#fight=12
     - name: Halondrus
       image: "/images/raids/sepulcher-of-the-first-ones/halondrus.png"
+      killedAt: 2022-05-31
     - name: Lihuvim
       image: "/images/raids/sepulcher-of-the-first-ones/lihuvim.png"
+      killedAt: 2022-06-02
     - name: Anduin Wrynn
       image: "/images/raids/sepulcher-of-the-first-ones/anduin.png"
+      killedAt: 2022-06-28
     - name: Rygelon
       image: "/images/raids/sepulcher-of-the-first-ones/rygelon.png"
     - name: Lords of Dread
